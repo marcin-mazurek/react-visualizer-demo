@@ -1,0 +1,31 @@
+{
+  "name": "react-visualizer-demo",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/app.js",
+  "dependencies": {
+    "react": "^0.14.3",
+    "react-render-visualizer-decorator": "^0.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.0.0",
+    "babel-loader": "^5.0.0",
+    "css-loader": "^0.23.0",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.2",
+    "lodash": "^3.10.1",
+    "minimist": "^1.2.0",
+    "react-dom": "^0.14.3",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9"
+  },
+  "scripts": {
+    "build": "cp src/index.html build/ && webpack",
+    "build:release": "cp src/index.html build/ && webpack --release",
+    "build:watch": "cp src/index.html build/ && webpack --watch"
+  },
+  "author": {
+    "name": "Marcin Mazurek",
+    "email": "marcin@mazurek.pro"
+  }
+}
